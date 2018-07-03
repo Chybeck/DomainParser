@@ -185,7 +185,7 @@ class Parser
      *
      * @return mixed
      */
-    public function parse($unparsedString, $defaultTld = 'com')
+    public function parse($unparsedString, $defaultTld = '')
     {
         try {
             if ($this->loaded === false) {
